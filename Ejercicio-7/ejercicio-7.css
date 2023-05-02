@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&family=Source+Sans+Pro:wght@400;700;900&family=Ubuntu:wght@300;500&display=swap');
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+.container {
+    color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 450px;
+}
+.buttons {
+    align-self: flex-start;
+    display: flex;
+    gap: 20px;
+    }
+.google-btn {
+    background-color: rgb(26,115,232);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+}
+.google-btn:hover {
+    opacity: 0.75;
+}
+.google-btn picture{
+    width: 36px;
+    height: 36px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    justify-content: center;
+}
+.google-btn picture img{
+    width: 75%;
+}
+.google-btn span{
+    color: white;
+    padding: 15px;
+    font-weight: 500;
+}
+.twitter-btn {
+    background-color: #F2F2F2;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+}
+.twitter-btn picture img{
+    width: 75%;
+    opacity: 0.8;
+}
+.twitter-btn:hover {
+    background-color: #ddd;    
+}
+.separator {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+.separator hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+.separator span{
+    color: #8b8b8b;
+}
+.section-inputs {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+}
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+label span {
+    font-weight: 800;
+}
+.section-inputs label input {
+    width: 85%;
+    background-color: #212121;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+    color: white;
+}
+label input {
+    color: white;
+    width: 93%;
+    background-color: #212121;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+    transition: background-color 0.3s, border 0.2s, boxshadow 0.3s ;
+}
+label input:hover {
+    background-color: #454045;
+    border: 1px solid #F3F3F4;
+    box-shadow: 0 0 4px #ff7d7da4;
+}
+label input:focus {
+    background-color: #454045;
+    border: 1px solid #F3F3F4;
+    box-shadow: 0 0 4px #ff7d7da4;
+}
+.checkbox-label {
+    display: flex;
+    flex-direction: row;
+}
+.checkbox-label input[type="checkbox"] {
+    width: 20px;
+    margin: auto;
+}
+.checkbox-label span {
+    font-weight: 400;
+}
+.submit-btn {
+    background-color: #EA4C89;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    border: none;
+    font-weight: 500;
+    font-size: 14pt;
+    justify-content: center;
+    cursor: pointer;
+    padding: 15px;
+}
+.submit-btn:hover {
+    opacity: 0.75;
+}
