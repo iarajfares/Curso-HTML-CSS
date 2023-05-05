@@ -1,0 +1,21 @@
+.row div {
+    margin: 0.25rem;
+}
+.col {
+    background-color: cornflowerblue;
+}
+.col-sm {
+    background-color: cornflowerblue;
+}
+.col-md {
+    background-color: cornflowerblue;
+}
+.col-lg {
+    background-color: cornflowerblue;
+}
+.col-xl {
+    background-color: cornflowerblue;
+}
+.col-xxl {
+    background-color: cornflowerblue;
+}
